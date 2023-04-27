@@ -1,0 +1,16 @@
+# Créé par Morphée, le 12/10/2022 en Python 3.7
+import turtle as t
+t.pensize(5)
+t.speed(1)
+t.color('red')
+t.begin_fill()
+t.fillcolor('pink')
+t.left(150)
+t.forward(180)
+t.circle(-90,180)
+t.setheading(60)
+t.circle(-90,180)
+t.forward(180)
+t.end_fill()
+t.hideturtle()
+t.done()
